@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="mycss.css"> 
+    <title>Front-End Scripting</title>
+</head>
+
+<body>
+    
+    <!-- for the form that needed to be filled out -->
+    <div class="forms">
+        <form name="myForm" class="f">
+            <fieldset>
+                <legend>Fill out this form completely.</legend>
+            <label>Food Name </label>
+            <input type="text" name="foodname" id="fname" class="txt"><br>
+            <label>Description </label>
+            <textarea type="text" name="description" id="desc" placeholder="Enter Description of food here"> </textarea><br>
+            <label>Image URL </label>
+            <input type="text" name="imageURL" id="img" class="txt"><br>
+            <label>Rank Number </label>
+            <input type="number" name="rank" id="rnk" class="txt"><br>
+            <button id="sbmt">Submit</button>
+            </fieldset>
+            
+        </form>
+     </div>
+     
+
+     <div class="tab">
+        <button class="tablinks" onclick="" id="defaultOpen">FAVORITE FOODS</button>
+        <button class="tablinks" onclick="">FAVORITE SONGS</button>
+        <button class="tablinks" onclick="">FAVORITE QUOTES</button>
+        
+      </div>
+      
+      
+      <!-- For the middle section part, per column or food, they are placed inside a div
+      every column div contains image, an h3 or header which is the name of the food, the p or paragraph for description-->
+      <div id="middle">
+        
+      </div>
+      
+      <!-- for the advertisement part that is placed at the leftmost of the screen -->
+      <div>
+          <div class="advertisement">
+              <h2>ADS</h2>
+              <img src="images/ads1.jpeg" width="500px" height="250px">
+              <img src="images/ads2.jpg"  width="500px" height="250px">
+              <img src="images/ads3.jpeg"  width="500px" height="250px">
+          </div>
+      </div>
+
+
+
+
+
+    
+
+    <script src="form.js"></script>
+</body>
+
+</html>
